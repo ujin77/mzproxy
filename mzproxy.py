@@ -43,11 +43,11 @@ class cmzProxy(object):
     _last_update = None
     keyreg = None
     log=None
-    zbx_url='http://zabbix.amb.corp/'
-    zbx_host='zabbix.amb.corp'
+    zbx_url='http://zabbix.local/'
+    zbx_host='zabbix.local'
     zbx_user='mqtt'
-    zbx_pwd='mqtt365'
-    mqtt_broker_host='zabbix.amb.corp'
+    zbx_pwd='mqtt'
+    mqtt_broker_host='mqtt.local'
     update_interval = 600
     keypattern = r"^mqtt\[[\'\"]?([\$\/a-zA-Z0-9]+)[\'\"]?\,?(\d)?\]$"
 
